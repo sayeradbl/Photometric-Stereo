@@ -12,7 +12,7 @@ Image intensity (Lambertian case): assume that kLj = 1,
 
   Solving for g(x, y) gives,  
       I = Sg(x,y)
-      g(x, y) = inv(S)I(x, y)
+      g(x, y) = inv(S) I(x, y)
       
   rho(x, y) = |g(x, y)|  <-- since n is a unit vector
   n(x,y) = g(x, y)/|g(x, y)| = g(x, y)/rho(x, y)
