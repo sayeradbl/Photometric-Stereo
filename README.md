@@ -23,3 +23,4 @@ Image intensity (Lambertian case): assume that kLj = 1,
   g = inv(transpose(S)S)transpose(S)I    and albedo and surface normal can be calculated as above
   
   Normals are like the “derivative” of the true depth. So, depths can be calculated from normals by Integration method.
+  ![alt text](https://github.com/sayeradbl/Photometric-Stereo/blob/master/images/Integration_for_depth.png)
